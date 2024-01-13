@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	string password;
+	cin >> password;
+
+	if (password == "s3cr3t!P@ssw0rd") {
+		cout << "Welcome" << endl;
+	}
+	else {
+		cout << "Wrong password!" << endl;
+	}
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
