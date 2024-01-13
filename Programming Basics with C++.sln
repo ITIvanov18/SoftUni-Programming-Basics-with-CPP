@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Greater Number", "Condi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Even or Odd", "Conditional Statements\03. Even or Odd\03. Even or Odd.vcxproj", "{7F07E080-764E-4819-8C14-EAF8152E6693}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Password Guess", "Conditional Statements\04. Password Guess\04. Password Guess.vcxproj", "{0D4C0B12-464A-481D-B68D-63C1777F8DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{7F07E080-764E-4819-8C14-EAF8152E6693}.Release|x64.Build.0 = Release|x64
 		{7F07E080-764E-4819-8C14-EAF8152E6693}.Release|x86.ActiveCfg = Release|Win32
 		{7F07E080-764E-4819-8C14-EAF8152E6693}.Release|x86.Build.0 = Release|Win32
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Debug|x64.ActiveCfg = Debug|x64
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Debug|x64.Build.0 = Debug|x64
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Debug|x86.Build.0 = Debug|Win32
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Release|x64.ActiveCfg = Release|x64
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Release|x64.Build.0 = Release|x64
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Release|x86.ActiveCfg = Release|Win32
+		{0D4C0B12-464A-481D-B68D-63C1777F8DAF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
