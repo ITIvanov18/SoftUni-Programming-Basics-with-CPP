@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int num;
+	cin >> num;
+
+	if (num % 2 == 0) {
+		cout << "even" << endl;
+	}
+	else {
+		cout << "odd" << endl;
+	}
+
+	return 0;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
