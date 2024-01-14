@@ -9,21 +9,22 @@ int main()
 	int hours, minutes;
 	cin >> hours >> minutes;
 
-	int timeInMinutes = hours * 60 + minutes;
-	int timePlus15 = timeInMinutes + 15;
+	minutes += 15;
 
-	int finalHours = timePlus15 / 60;
-	int finalMinutes = timePlus15 % 60;
-
-	if (finalHours >= 24) {
-		finalHours -= 24;
+	if (minutes >= 60) {
+		hours += 1;
+		minutes -= 60;
 	}
 
-	if (finalMinutes < 10) {
-		cout << finalHours << ":0" << finalMinutes << endl;
+	if (hours >= 24) {
+		hours -= 24;
+	}
+
+	if (minutes < 10) {
+		cout << hours << ":0" << minutes << endl;
 	}
 	else {
-		cout << finalHours << ":" << finalMinutes << endl;
+		cout << hours << ":" << minutes << endl;
 	}
 
 
