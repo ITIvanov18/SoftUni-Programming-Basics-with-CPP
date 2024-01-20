@@ -1,2 +1,2 @@
-# SoftUni_Programming-Basics-with-CPP
+# SoftUni/Programming Basics with C++
  
