@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. Invalid Number", "Condi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11. Fruit Shop", "Conditional Statements Advanced\11. Fruit Shop\11. Fruit Shop.vcxproj", "{AF33971A-FF0C-42C9-95F4-374AB3C8D72E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12. Trade Commissions", "Conditional Statements Advanced\12. Trade Commissions\12. Trade Commissions.vcxproj", "{F810F8C9-148E-4946-BBF4-20D8D591ED39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -369,6 +371,14 @@ Global
 		{AF33971A-FF0C-42C9-95F4-374AB3C8D72E}.Release|x64.Build.0 = Release|x64
 		{AF33971A-FF0C-42C9-95F4-374AB3C8D72E}.Release|x86.ActiveCfg = Release|Win32
 		{AF33971A-FF0C-42C9-95F4-374AB3C8D72E}.Release|x86.Build.0 = Release|Win32
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Debug|x64.ActiveCfg = Debug|x64
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Debug|x64.Build.0 = Debug|x64
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Debug|x86.ActiveCfg = Debug|Win32
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Debug|x86.Build.0 = Debug|Win32
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Release|x64.ActiveCfg = Release|x64
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Release|x64.Build.0 = Release|x64
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Release|x86.ActiveCfg = Release|Win32
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -409,6 +419,7 @@ Global
 		{90CAD266-7DF5-4BC1-A249-A470D6A629FE} = {66115F05-CBBE-483D-926B-628F060A8158}
 		{F96DF6B5-CE2A-4355-8EEA-8B54D8953B78} = {66115F05-CBBE-483D-926B-628F060A8158}
 		{AF33971A-FF0C-42C9-95F4-374AB3C8D72E} = {66115F05-CBBE-483D-926B-628F060A8158}
+		{F810F8C9-148E-4946-BBF4-20D8D591ED39} = {66115F05-CBBE-483D-926B-628F060A8158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
