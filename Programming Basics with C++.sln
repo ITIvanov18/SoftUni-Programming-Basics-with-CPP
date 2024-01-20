@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Day of Week", "Conditio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Weekend or Working Day", "Conditional Statements Advanced\02. Weekend or Working Day\02. Weekend or Working Day.vcxproj", "{990CC53C-0C57-48A5-ACA8-6BB337262E93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Animal Type", "Conditional Statements Advanced\03. Animal Type\03. Animal Type.vcxproj", "{FCD0B53A-C85C-485F-B13F-31A190CA1B28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -279,6 +281,14 @@ Global
 		{990CC53C-0C57-48A5-ACA8-6BB337262E93}.Release|x64.Build.0 = Release|x64
 		{990CC53C-0C57-48A5-ACA8-6BB337262E93}.Release|x86.ActiveCfg = Release|Win32
 		{990CC53C-0C57-48A5-ACA8-6BB337262E93}.Release|x86.Build.0 = Release|Win32
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Debug|x64.ActiveCfg = Debug|x64
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Debug|x64.Build.0 = Debug|x64
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Debug|x86.Build.0 = Debug|Win32
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Release|x64.ActiveCfg = Release|x64
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Release|x64.Build.0 = Release|x64
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Release|x86.ActiveCfg = Release|Win32
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +320,7 @@ Global
 		{FBB651A6-01C8-404B-92B5-A4EE1ACEAB89} = {11A4273B-5B07-4BF8-9256-5C652E863F71}
 		{C0886ADE-031F-4B88-B2AF-275969E862CC} = {66115F05-CBBE-483D-926B-628F060A8158}
 		{990CC53C-0C57-48A5-ACA8-6BB337262E93} = {66115F05-CBBE-483D-926B-628F060A8158}
+		{FCD0B53A-C85C-485F-B13F-31A190CA1B28} = {66115F05-CBBE-483D-926B-628F060A8158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
