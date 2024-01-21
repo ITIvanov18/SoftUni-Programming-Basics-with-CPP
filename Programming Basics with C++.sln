@@ -87,6 +87,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conditional Statements Adva
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Cinema", "Conditional Statements Advanced - Exercise\01. Cinema\01. Cinema.vcxproj", "{52DF952D-6295-4577-8212-F1E9F5837CF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Summer Outfit", "Conditional Statements Advanced - Exercise\02. Summer Outfit\02. Summer Outfit.vcxproj", "{73A45396-0683-44BC-A058-CDA532609F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{52DF952D-6295-4577-8212-F1E9F5837CF3}.Release|x64.Build.0 = Release|x64
 		{52DF952D-6295-4577-8212-F1E9F5837CF3}.Release|x86.ActiveCfg = Release|Win32
 		{52DF952D-6295-4577-8212-F1E9F5837CF3}.Release|x86.Build.0 = Release|Win32
+		{73A45396-0683-44BC-A058-CDA532609F92}.Debug|x64.ActiveCfg = Debug|x64
+		{73A45396-0683-44BC-A058-CDA532609F92}.Debug|x64.Build.0 = Debug|x64
+		{73A45396-0683-44BC-A058-CDA532609F92}.Debug|x86.ActiveCfg = Debug|Win32
+		{73A45396-0683-44BC-A058-CDA532609F92}.Debug|x86.Build.0 = Debug|Win32
+		{73A45396-0683-44BC-A058-CDA532609F92}.Release|x64.ActiveCfg = Release|x64
+		{73A45396-0683-44BC-A058-CDA532609F92}.Release|x64.Build.0 = Release|x64
+		{73A45396-0683-44BC-A058-CDA532609F92}.Release|x86.ActiveCfg = Release|Win32
+		{73A45396-0683-44BC-A058-CDA532609F92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -433,6 +443,7 @@ Global
 		{AF33971A-FF0C-42C9-95F4-374AB3C8D72E} = {66115F05-CBBE-483D-926B-628F060A8158}
 		{F810F8C9-148E-4946-BBF4-20D8D591ED39} = {66115F05-CBBE-483D-926B-628F060A8158}
 		{52DF952D-6295-4577-8212-F1E9F5837CF3} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
+		{73A45396-0683-44BC-A058-CDA532609F92} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
