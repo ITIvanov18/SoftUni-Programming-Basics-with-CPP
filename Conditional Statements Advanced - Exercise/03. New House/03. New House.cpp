@@ -11,46 +11,49 @@ int main()
 	cin >> flowerType >> flowerCount >> budget;
 
 	double price = 0;
+	double discount = 0;
 
 	if (flowerType == "Roses") {
 		price = 5 * flowerCount;
 		if (flowerCount > 80) {
-			price -= (0.1 * price);
+			discount = -0.1;
 		}
 	}
 	else if (flowerType == "Dahlias") {
 		price = 3.8 * flowerCount;
 		if (flowerCount > 90) {
-			price -= (0.15 * price);
+			discount = -0.15;
 		}
 	}
 	else if (flowerType == "Tulips") {
 		price = 2.8 * flowerCount;
 		if (flowerCount > 80) {
-			price -= (0.15 * price);
+			discount = -0.15;
 		}
 	}
 	else if (flowerType == "Narcissus") {
 		price = 3 * flowerCount;
 			if (flowerCount < 120) {
-				price += (0.15 * price);
+				discount = 0.15;
 			}
 	}
 	else if (flowerType == "Gladiolus") {
 		price = 2.5 * flowerCount;
 		if (flowerCount < 80) {
-			price += (0.20 * price);
+			discount = 0.2;
 		}
 	}
+
+	double costs = (1 + discount) * price;
 
 	cout.setf(ios::fixed);
 	cout.precision(2);
 
-	if (budget >= price) {
+	if (budget >= costs) {
 		cout << "Hey, you have a great garden with " << flowerCount << " " << flowerType
-			<< " and " << budget - price << " leva left." << endl;
+			<< " and " << budget - costs << " leva left." << endl;
 	} else {
-		cout << "Not enough money, you need " << price - budget << " leva more." << endl;
+		cout << "Not enough money, you need " << costs - budget << " leva more." << endl;
 	}
 
 
