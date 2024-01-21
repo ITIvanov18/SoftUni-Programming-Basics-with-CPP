@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Summer Outfit", "Condit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. New House", "Conditional Statements Advanced - Exercise\03. New House\03. New House.vcxproj", "{34020ED5-D596-4A23-AEBA-A0F55E08941D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Fishing Boat", "Conditional Statements Advanced - Exercise\04. Fishing Boat\04. Fishing Boat.vcxproj", "{F2D3761A-1668-4449-B086-B3E138189362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{34020ED5-D596-4A23-AEBA-A0F55E08941D}.Release|x64.Build.0 = Release|x64
 		{34020ED5-D596-4A23-AEBA-A0F55E08941D}.Release|x86.ActiveCfg = Release|Win32
 		{34020ED5-D596-4A23-AEBA-A0F55E08941D}.Release|x86.Build.0 = Release|Win32
+		{F2D3761A-1668-4449-B086-B3E138189362}.Debug|x64.ActiveCfg = Debug|x64
+		{F2D3761A-1668-4449-B086-B3E138189362}.Debug|x64.Build.0 = Debug|x64
+		{F2D3761A-1668-4449-B086-B3E138189362}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2D3761A-1668-4449-B086-B3E138189362}.Debug|x86.Build.0 = Debug|Win32
+		{F2D3761A-1668-4449-B086-B3E138189362}.Release|x64.ActiveCfg = Release|x64
+		{F2D3761A-1668-4449-B086-B3E138189362}.Release|x64.Build.0 = Release|x64
+		{F2D3761A-1668-4449-B086-B3E138189362}.Release|x86.ActiveCfg = Release|Win32
+		{F2D3761A-1668-4449-B086-B3E138189362}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,6 +465,7 @@ Global
 		{52DF952D-6295-4577-8212-F1E9F5837CF3} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
 		{73A45396-0683-44BC-A058-CDA532609F92} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
 		{34020ED5-D596-4A23-AEBA-A0F55E08941D} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
+		{F2D3761A-1668-4449-B086-B3E138189362} = {D1F10C59-9319-4C5D-8AD3-95170B361BBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
