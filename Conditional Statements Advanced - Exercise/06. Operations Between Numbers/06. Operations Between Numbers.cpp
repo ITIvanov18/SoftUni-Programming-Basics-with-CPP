@@ -2,19 +2,61 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int N1, N2;
+	char operation;
+	cin >> N1 >> N2 >> operation;
+
+	if ((operation == '/' || operation == '%') && N2 == 0) {
+		cout << "Cannot divide " << N1 << " by zero" << endl;
+	}
+
+	else {
+		if (operation == '/'){
+			double divisionResult = (double)N1 / N2;
+
+			cout.setf(ios::fixed);
+			cout.precision(2);
+
+			cout << N1 << " / " << N2 << " = " << divisionResult;
+		} 
+
+		else {
+			int result = 0;
+			bool evenOrOdd = true;
+
+			if (operation == '+') {
+				result = N1 + N2;
+			}
+			else if (operation == '-') {
+				result = N1 - N2;
+			}
+			else if (operation == '*') {
+				result = N1 * N2;
+			}
+			else if (operation == '%') {
+				result = N1 % N2;
+				evenOrOdd = false;
+			}
+			cout << N1 << " " << operation << " " << N2 << " = " << result;
+
+			if (evenOrOdd) {
+				string parity = result % 2 == 0 ? "even" : "odd";
+				cout << " - " << parity;
+			}
+
+			cout << endl;
+
+		}
+	}
+
+	return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
