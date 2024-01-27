@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Even Powers of 2", "For
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Character Sequence", "For Loop\05. Character Sequence\05. Character Sequence.vcxproj", "{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Vowels Sum", "For Loop\06. Vowels Sum\06. Vowels Sum.vcxproj", "{DCD218F4-309B-4CAB-B781-95ABDD6D5803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -523,6 +525,14 @@ Global
 		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x64.Build.0 = Release|x64
 		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x86.ActiveCfg = Release|Win32
 		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x86.Build.0 = Release|Win32
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Debug|x64.ActiveCfg = Debug|x64
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Debug|x64.Build.0 = Debug|x64
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Debug|x86.Build.0 = Debug|Win32
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Release|x64.ActiveCfg = Release|x64
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Release|x64.Build.0 = Release|x64
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Release|x86.ActiveCfg = Release|Win32
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -578,6 +588,7 @@ Global
 		{227F4770-F0B7-4D89-95D1-22B079BC3145} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{FA77224A-64F8-4BF0-8893-ACA603E5CDFD} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768} = {E6032050-E468-4834-B837-42C4A3E74AD2}
+		{DCD218F4-309B-4CAB-B781-95ABDD6D5803} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
