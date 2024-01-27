@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Numbers 1-N with Step 3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Even Powers of 2", "For Loop\04. Even Powers of 2\04. Even Powers of 2.vcxproj", "{FA77224A-64F8-4BF0-8893-ACA603E5CDFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Character Sequence", "For Loop\05. Character Sequence\05. Character Sequence.vcxproj", "{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -513,6 +515,14 @@ Global
 		{FA77224A-64F8-4BF0-8893-ACA603E5CDFD}.Release|x64.Build.0 = Release|x64
 		{FA77224A-64F8-4BF0-8893-ACA603E5CDFD}.Release|x86.ActiveCfg = Release|Win32
 		{FA77224A-64F8-4BF0-8893-ACA603E5CDFD}.Release|x86.Build.0 = Release|Win32
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Debug|x64.ActiveCfg = Debug|x64
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Debug|x64.Build.0 = Debug|x64
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Debug|x86.ActiveCfg = Debug|Win32
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Debug|x86.Build.0 = Debug|Win32
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x64.ActiveCfg = Release|x64
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x64.Build.0 = Release|x64
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x86.ActiveCfg = Release|Win32
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -567,6 +577,7 @@ Global
 		{93573AB9-1727-4B04-9881-69B29BF3F6D2} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{227F4770-F0B7-4D89-95D1-22B079BC3145} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{FA77224A-64F8-4BF0-8893-ACA603E5CDFD} = {E6032050-E468-4834-B837-42C4A3E74AD2}
+		{D09A99AC-105A-4C9E-A9E3-C5D3424B1768} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
