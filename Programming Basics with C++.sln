@@ -125,6 +125,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Numbers Ending in 7", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "For Loop - Exercise", "For Loop - Exercise", "{09FF6C76-0F83-4F52-BD2F-0471B2614F52}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Half Sum Element", "For Loop - Exercise\02. Half Sum Element\02. Half Sum Element.vcxproj", "{47FF8516-9BA0-4670-984D-A80F3155276F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -565,6 +567,14 @@ Global
 		{FBD3C1DD-B5E1-4C8C-B400-E135B028DC72}.Release|x64.Build.0 = Release|x64
 		{FBD3C1DD-B5E1-4C8C-B400-E135B028DC72}.Release|x86.ActiveCfg = Release|Win32
 		{FBD3C1DD-B5E1-4C8C-B400-E135B028DC72}.Release|x86.Build.0 = Release|Win32
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Debug|x64.ActiveCfg = Debug|x64
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Debug|x64.Build.0 = Debug|x64
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Debug|x86.ActiveCfg = Debug|Win32
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Debug|x86.Build.0 = Debug|Win32
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Release|x64.ActiveCfg = Release|x64
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Release|x64.Build.0 = Release|x64
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Release|x86.ActiveCfg = Release|Win32
+		{47FF8516-9BA0-4670-984D-A80F3155276F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -624,6 +634,7 @@ Global
 		{10F98019-AF79-4505-A954-826368670710} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{AC374FDC-CED5-4F83-A47D-96E9AC87B8A7} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{FBD3C1DD-B5E1-4C8C-B400-E135B028DC72} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
+		{47FF8516-9BA0-4670-984D-A80F3155276F} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
