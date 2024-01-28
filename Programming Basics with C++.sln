@@ -131,6 +131,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Histogram", "For Loop -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Clever Lily", "For Loop - Exercise\04. Clever Lily\04. Clever Lily.vcxproj", "{CFEDACCC-D7DA-4D1C-893F-EAC5B6961519}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Salary", "For Loop - Exercise\05. Salary\05. Salary.vcxproj", "{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -595,6 +597,14 @@ Global
 		{CFEDACCC-D7DA-4D1C-893F-EAC5B6961519}.Release|x64.Build.0 = Release|x64
 		{CFEDACCC-D7DA-4D1C-893F-EAC5B6961519}.Release|x86.ActiveCfg = Release|Win32
 		{CFEDACCC-D7DA-4D1C-893F-EAC5B6961519}.Release|x86.Build.0 = Release|Win32
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Debug|x64.ActiveCfg = Debug|x64
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Debug|x64.Build.0 = Debug|x64
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Debug|x86.Build.0 = Debug|Win32
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Release|x64.ActiveCfg = Release|x64
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Release|x64.Build.0 = Release|x64
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Release|x86.ActiveCfg = Release|Win32
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -657,6 +667,7 @@ Global
 		{47FF8516-9BA0-4670-984D-A80F3155276F} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 		{3CD06278-AA52-4B66-BB0E-EC42E862EA3D} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 		{CFEDACCC-D7DA-4D1C-893F-EAC5B6961519} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
+		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
