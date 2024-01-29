@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Oscars", "For Loop - Ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09. Left and Right Sum", "For Loop\09. Left and Right Sum\09. Left and Right Sum.vcxproj", "{E69FB038-613F-4F75-A21C-67D86C8452B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. Odd Even Sum", "For Loop\10. Odd Even Sum\10. Odd Even Sum.vcxproj", "{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -625,6 +627,14 @@ Global
 		{E69FB038-613F-4F75-A21C-67D86C8452B1}.Release|x64.Build.0 = Release|x64
 		{E69FB038-613F-4F75-A21C-67D86C8452B1}.Release|x86.ActiveCfg = Release|Win32
 		{E69FB038-613F-4F75-A21C-67D86C8452B1}.Release|x86.Build.0 = Release|Win32
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Debug|x64.ActiveCfg = Debug|x64
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Debug|x64.Build.0 = Debug|x64
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Debug|x86.Build.0 = Debug|Win32
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Release|x64.ActiveCfg = Release|x64
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Release|x64.Build.0 = Release|x64
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Release|x86.ActiveCfg = Release|Win32
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -690,6 +700,7 @@ Global
 		{E5FBB8E4-3A35-48AD-938A-D29CEA64D516} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 		{EF96E645-F211-475B-AD10-B07A8E207574} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 		{E69FB038-613F-4F75-A21C-67D86C8452B1} = {E6032050-E468-4834-B837-42C4A3E74AD2}
+		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}

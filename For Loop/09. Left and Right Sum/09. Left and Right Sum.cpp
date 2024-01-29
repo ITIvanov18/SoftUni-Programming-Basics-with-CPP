@@ -29,8 +29,7 @@ int main()
 	int diff = abs(leftSum - rightSum);
 	if (diff == 0) {
 		cout << "Yes, sum = " << leftSum << endl;
-	}
-	else {
+	} else {
 		cout << "No, diff = " << diff << endl;
 	}
 
