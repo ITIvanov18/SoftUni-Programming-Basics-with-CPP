@@ -141,6 +141,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. Odd Even Sum", "For Loo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Trekking Mania", "For Loop - Exercise\07. Trekking Mania\07. Trekking Mania.vcxproj", "{66CBC363-9F5D-4E88-AB37-04CAC7769582}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08. Tennis Ranklist", "For Loop - Exercise\08. Tennis Ranklist\08. Tennis Ranklist.vcxproj", "{6639995C-AE93-4AD2-A5BA-D021D858F1F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -645,6 +647,14 @@ Global
 		{66CBC363-9F5D-4E88-AB37-04CAC7769582}.Release|x64.Build.0 = Release|x64
 		{66CBC363-9F5D-4E88-AB37-04CAC7769582}.Release|x86.ActiveCfg = Release|Win32
 		{66CBC363-9F5D-4E88-AB37-04CAC7769582}.Release|x86.Build.0 = Release|Win32
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Debug|x64.ActiveCfg = Debug|x64
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Debug|x64.Build.0 = Debug|x64
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Debug|x86.Build.0 = Debug|Win32
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Release|x64.ActiveCfg = Release|x64
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Release|x64.Build.0 = Release|x64
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Release|x86.ActiveCfg = Release|Win32
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -712,6 +722,7 @@ Global
 		{E69FB038-613F-4F75-A21C-67D86C8452B1} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{4A20FF27-E2D9-4C19-A935-B4A716FAC7BD} = {E6032050-E468-4834-B837-42C4A3E74AD2}
 		{66CBC363-9F5D-4E88-AB37-04CAC7769582} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
+		{6639995C-AE93-4AD2-A5BA-D021D858F1F4} = {09FF6C76-0F83-4F52-BD2F-0471B2614F52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
