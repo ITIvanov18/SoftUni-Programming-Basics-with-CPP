@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Account Balance", "Whil
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Max Number", "While Loop\06. Max Number\06. Max Number.vcxproj", "{B4CC993C-55E6-458F-87C4-DA49BD677F4E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Min Number", "While Loop\07. Min Number\07. Min Number.vcxproj", "{3D2C6AF2-1A52-435F-942C-638C8124F310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -717,6 +719,14 @@ Global
 		{B4CC993C-55E6-458F-87C4-DA49BD677F4E}.Release|x64.Build.0 = Release|x64
 		{B4CC993C-55E6-458F-87C4-DA49BD677F4E}.Release|x86.ActiveCfg = Release|Win32
 		{B4CC993C-55E6-458F-87C4-DA49BD677F4E}.Release|x86.Build.0 = Release|Win32
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Debug|x64.ActiveCfg = Debug|x64
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Debug|x64.Build.0 = Debug|x64
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Debug|x86.Build.0 = Debug|Win32
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Release|x64.ActiveCfg = Release|x64
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Release|x64.Build.0 = Release|x64
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Release|x86.ActiveCfg = Release|Win32
+		{3D2C6AF2-1A52-435F-942C-638C8124F310}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -791,6 +801,7 @@ Global
 		{FAC5967C-D347-4409-AE7F-328708649BCE} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 		{B4CC993C-55E6-458F-87C4-DA49BD677F4E} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
+		{3D2C6AF2-1A52-435F-942C-638C8124F310} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
