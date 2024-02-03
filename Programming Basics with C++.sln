@@ -153,6 +153,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Sum Numbers", "While Lo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Sequence 2k+1", "While Loop\04. Sequence 2k+1\04. Sequence 2k+1.vcxproj", "{FAC5967C-D347-4409-AE7F-328708649BCE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Account Balance", "While Loop\05. Account Balance\05. Account Balance.vcxproj", "{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -697,6 +699,14 @@ Global
 		{FAC5967C-D347-4409-AE7F-328708649BCE}.Release|x64.Build.0 = Release|x64
 		{FAC5967C-D347-4409-AE7F-328708649BCE}.Release|x86.ActiveCfg = Release|Win32
 		{FAC5967C-D347-4409-AE7F-328708649BCE}.Release|x86.Build.0 = Release|Win32
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Debug|x64.ActiveCfg = Debug|x64
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Debug|x64.Build.0 = Debug|x64
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Debug|x86.Build.0 = Debug|Win32
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Release|x64.ActiveCfg = Release|x64
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Release|x64.Build.0 = Release|x64
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Release|x86.ActiveCfg = Release|Win32
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -769,6 +779,7 @@ Global
 		{6CDFA66E-3E33-49B1-BBBA-BA56DC197512} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 		{BA608E84-009C-4EDC-B37F-749D2B960645} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 		{FAC5967C-D347-4409-AE7F-328708649BCE} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
+		{C4BA0C9B-42E5-4C64-8BD4-07BAF3998EF2} = {09A7E6C1-B7EA-4039-9657-57E903313AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
