@@ -1,0 +1,3 @@
+﻿  05. Coins.cpp
+C:\Users\TsarIvan\source\repos\Programming Basics with C++\While Loop - Exercise\05. Coins\05. Coins.cpp(17,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  05. Coins.vcxproj -> C:\Users\TsarIvan\source\repos\Programming Basics with C++\x64\Debug\05. Coins.exe
