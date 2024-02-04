@@ -169,6 +169,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Exam Preparation", "Whi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Vacation", "While Loop - Exercise\03. Vacation\03. Vacation.vcxproj", "{EBEE513C-5DAD-47B0-905B-8FC642D5B86B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Walking", "While Loop - Exercise\04. Walking\04. Walking.vcxproj", "{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -769,6 +771,14 @@ Global
 		{EBEE513C-5DAD-47B0-905B-8FC642D5B86B}.Release|x64.Build.0 = Release|x64
 		{EBEE513C-5DAD-47B0-905B-8FC642D5B86B}.Release|x86.ActiveCfg = Release|Win32
 		{EBEE513C-5DAD-47B0-905B-8FC642D5B86B}.Release|x86.Build.0 = Release|Win32
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Debug|x64.ActiveCfg = Debug|x64
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Debug|x64.Build.0 = Debug|x64
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Debug|x86.Build.0 = Debug|Win32
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Release|x64.ActiveCfg = Release|x64
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Release|x64.Build.0 = Release|x64
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Release|x86.ActiveCfg = Release|Win32
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -848,6 +858,7 @@ Global
 		{9EBCB6A2-FC3D-4762-B8A7-EC4B840E4A17} = {E5E4BE88-0D8B-4156-B65E-0051768144CA}
 		{2E0F83C8-A548-4872-B9B9-BE27AF64795E} = {E5E4BE88-0D8B-4156-B65E-0051768144CA}
 		{EBEE513C-5DAD-47B0-905B-8FC642D5B86B} = {E5E4BE88-0D8B-4156-B65E-0051768144CA}
+		{68C9E876-43B2-4F75-9384-7CD25EB7E5BC} = {E5E4BE88-0D8B-4156-B65E-0051768144CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
