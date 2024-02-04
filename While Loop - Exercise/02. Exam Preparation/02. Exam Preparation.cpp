@@ -39,8 +39,7 @@ int main()
 		cout << "Average score: " << (double)gradeSum / problemsCount << endl;
 		cout << "Number of problems: " << problemsCount << endl;
 		cout << "Last problem: " << lastProblem << endl;
-	}
-	else {
+	} else {
 		cout << "You need a break, " << currentBadGrades << " poor grades." << endl;
 	}
 
