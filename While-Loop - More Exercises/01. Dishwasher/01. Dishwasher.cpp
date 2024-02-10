@@ -6,41 +6,40 @@
 using namespace std;
 
 int main() {
-    int detergentQuantity;
-    cin >> detergentQuantity;
+	int detergentBottles;
+	cin >> detergentBottles;
+	int detergentQuantity = detergentBottles * 750;
 
-    int dishesCount = 0;
-    int potsCount = 0;
-    int timesFilled = 0;
+	int platesCount = 0;
+	int potsCount = 0;
+	int timesFilled = 0;
 
-    string input;
-    while (cin >> input && input != "End") {
-        int dishes;
-        cin >> dishes;
+	string input;
 
-        if (timesFilled % 3 == 2) {
-            potsCount += dishes;
-        }
-        else {
-            dishesCount += dishes;
-        }
+	while (cin >> input && input != "End") {
+		int dishes = stoi(input);
+		timesFilled++;
 
-        timesFilled++;
-    }
+		if (timesFilled % 3 == 0) {
+			potsCount += dishes;
+		} else {
+			platesCount += dishes;
+		}
+	}
 
-    int totalDetergentNeeded = dishesCount * 5 + potsCount * 15;
-    int leftoverDetergent = detergentQuantity - totalDetergentNeeded;
+	int totalDetergentNeeded = platesCount * 5 + potsCount * 15;
+	int leftoverDetergent = detergentQuantity - totalDetergentNeeded;
 
-    if (leftoverDetergent >= 0) {
-        cout << "Detergent was enough!" << endl;
-        cout << dishesCount << " dishes and " << potsCount << " pots were washed." << endl;
-        cout << "Leftover detergent " << leftoverDetergent << " ml." << endl;
-    }
-    else {
-        cout << "Not enough detergent, " << -leftoverDetergent << " ml. more necessary!" << endl;
-    }
+	if (leftoverDetergent >= 0) {
+		cout << "Detergent was enough!" << endl;
+		cout << platesCount << " dishes and " << potsCount << " pots were washed." << endl;
+		cout << "Leftover detergent " << leftoverDetergent << " ml." << endl;
+	}
+	else {
+		cout << "Not enough detergent, " << -leftoverDetergent << " ml. more necessary!" << endl;
+	}
 
-    return 0;
+	return 0;
 }
 
 
