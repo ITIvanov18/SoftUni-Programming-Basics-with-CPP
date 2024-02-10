@@ -189,6 +189,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Multiplication Table", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Combinations", "Nested Loops - Lab\03. Combinations\03. Combinations.vcxproj", "{9F16D031-A80A-48CB-93B9-9441FE7809AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Sum of Two Numbers", "Nested Loops - Lab\04. Sum of Two Numbers\04. Sum of Two Numbers.vcxproj", "{463BC65A-13D2-417B-B3D3-B9DCF5675D52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -853,6 +855,14 @@ Global
 		{9F16D031-A80A-48CB-93B9-9441FE7809AD}.Release|x64.Build.0 = Release|x64
 		{9F16D031-A80A-48CB-93B9-9441FE7809AD}.Release|x86.ActiveCfg = Release|Win32
 		{9F16D031-A80A-48CB-93B9-9441FE7809AD}.Release|x86.Build.0 = Release|Win32
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Debug|x64.ActiveCfg = Debug|x64
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Debug|x64.Build.0 = Debug|x64
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Debug|x86.ActiveCfg = Debug|Win32
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Debug|x86.Build.0 = Debug|Win32
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Release|x64.ActiveCfg = Release|x64
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Release|x64.Build.0 = Release|x64
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Release|x86.ActiveCfg = Release|Win32
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -940,6 +950,7 @@ Global
 		{B0CDB2C8-2782-4CF4-ACC6-597576C1B394} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{A3778AC7-CDA6-41B6-92AC-E6811B16F992} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{9F16D031-A80A-48CB-93B9-9441FE7809AD} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
+		{463BC65A-13D2-417B-B3D3-B9DCF5675D52} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
