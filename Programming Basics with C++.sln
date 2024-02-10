@@ -193,6 +193,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Sum of Two Numbers", "N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Travelling", "Nested Loops - Lab\05. Travelling\05. Travelling.vcxproj", "{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Building", "Nested Loops - Lab\06. Building\06. Building.vcxproj", "{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -873,6 +875,14 @@ Global
 		{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E}.Release|x64.Build.0 = Release|x64
 		{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E}.Release|x86.ActiveCfg = Release|Win32
 		{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E}.Release|x86.Build.0 = Release|Win32
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Debug|x64.ActiveCfg = Debug|x64
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Debug|x64.Build.0 = Debug|x64
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Debug|x86.Build.0 = Debug|Win32
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Release|x64.ActiveCfg = Release|x64
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Release|x64.Build.0 = Release|x64
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Release|x86.ActiveCfg = Release|Win32
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -962,6 +972,7 @@ Global
 		{9F16D031-A80A-48CB-93B9-9441FE7809AD} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{463BC65A-13D2-417B-B3D3-B9DCF5675D52} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
+		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
