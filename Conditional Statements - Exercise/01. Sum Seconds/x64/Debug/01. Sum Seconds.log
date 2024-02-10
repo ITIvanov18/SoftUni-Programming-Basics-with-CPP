@@ -1,3 +1,2 @@
 ﻿  01. Sum Seconds.cpp
-C:\Users\TsarIvan\source\repos\Programming Basics with C++\Conditional Statements - Exercise\01. Sum Seconds\01. Sum Seconds.cpp(12): error C4700: uninitialized local variable 'timeSecond' used
-C:\Users\TsarIvan\source\repos\Programming Basics with C++\Conditional Statements - Exercise\01. Sum Seconds\01. Sum Seconds.cpp(12): error C4700: uninitialized local variable 'timeThird' used
+  01. Sum Seconds.vcxproj -> C:\Users\TsarIvan\source\repos\Programming Basics with C++\x64\Debug\01. Sum Seconds.exe
