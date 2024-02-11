@@ -199,6 +199,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nested Loops - Exercise", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Number Pyramid", "Nested Loops - Exercise\01. Number Pyramid\01. Number Pyramid.vcxproj", "{A8009F91-83B4-414F-A9C3-596492E64C9C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Equal Sums Even Odd Position", "Nested Loops - Exercise\02. Equal Sums Even Odd Position\02. Equal Sums Even Odd Position.vcxproj", "{BA2A40D9-4800-4373-9185-06BD8BB89023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -895,6 +897,14 @@ Global
 		{A8009F91-83B4-414F-A9C3-596492E64C9C}.Release|x64.Build.0 = Release|x64
 		{A8009F91-83B4-414F-A9C3-596492E64C9C}.Release|x86.ActiveCfg = Release|Win32
 		{A8009F91-83B4-414F-A9C3-596492E64C9C}.Release|x86.Build.0 = Release|Win32
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Debug|x64.ActiveCfg = Debug|x64
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Debug|x64.Build.0 = Debug|x64
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Debug|x86.Build.0 = Debug|Win32
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Release|x64.ActiveCfg = Release|x64
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Release|x64.Build.0 = Release|x64
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Release|x86.ActiveCfg = Release|Win32
+		{BA2A40D9-4800-4373-9185-06BD8BB89023}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -986,6 +996,7 @@ Global
 		{D0DBCD42-FF4C-4EB1-80B8-EB66ADB5D44E} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{A5BBFA82-5E5D-471F-B3C7-BEC7AB8AE227} = {B1C38DCB-5557-4A41-B507-15AA20E54279}
 		{A8009F91-83B4-414F-A9C3-596492E64C9C} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
+		{BA2A40D9-4800-4373-9185-06BD8BB89023} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
