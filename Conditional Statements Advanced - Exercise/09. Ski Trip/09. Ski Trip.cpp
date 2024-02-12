@@ -28,11 +28,9 @@ int main()
 
         if (nights < 10) {
             price *= 0.7; 
-        }
-        else if (nights <= 15) {
+        } else if (nights <= 15) {
             price *= 0.65;
-        }
-        else {
+        } else {
             price *= 0.5;
         }
     }
@@ -43,11 +41,9 @@ int main()
 
         if (nights < 10) {
             price *= 0.9;
-        }
-        else if (nights <= 15) {
+        } else if (nights <= 15) {
             price *= 0.85;
-        }
-        else {
+        } else {
             price *= 0.8;
         }
     }
