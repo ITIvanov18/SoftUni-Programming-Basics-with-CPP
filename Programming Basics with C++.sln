@@ -207,6 +207,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Train The Trainers", "N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Special Numbers", "Nested Loops - Exercise\05. Special Numbers\05. Special Numbers.vcxproj", "{89B97AD8-D608-4D9F-B349-2E9C98AF6583}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Cinema Tickets", "Nested Loops - Exercise\06. Cinema Tickets\06. Cinema Tickets.vcxproj", "{C74FC600-E8A2-4769-BE49-009CA60E8E06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -935,6 +937,14 @@ Global
 		{89B97AD8-D608-4D9F-B349-2E9C98AF6583}.Release|x64.Build.0 = Release|x64
 		{89B97AD8-D608-4D9F-B349-2E9C98AF6583}.Release|x86.ActiveCfg = Release|Win32
 		{89B97AD8-D608-4D9F-B349-2E9C98AF6583}.Release|x86.Build.0 = Release|Win32
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Debug|x64.ActiveCfg = Debug|x64
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Debug|x64.Build.0 = Debug|x64
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Debug|x86.ActiveCfg = Debug|Win32
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Debug|x86.Build.0 = Debug|Win32
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Release|x64.ActiveCfg = Release|x64
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Release|x64.Build.0 = Release|x64
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Release|x86.ActiveCfg = Release|Win32
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1030,6 +1040,7 @@ Global
 		{B857C260-E989-4587-9481-5E571577F7AA} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 		{932978D5-B9D9-4951-A10C-D9C80FB03E1F} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 		{89B97AD8-D608-4D9F-B349-2E9C98AF6583} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
+		{C74FC600-E8A2-4769-BE49-009CA60E8E06} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
