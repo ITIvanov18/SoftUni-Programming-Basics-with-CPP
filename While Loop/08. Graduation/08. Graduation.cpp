@@ -10,7 +10,7 @@ int main()
 	cin >> studentName;
 
 	int currentGrade = 1;
-	double totalGrades = 0.0;
+	double totalGrades = 0;
 	int totalYearsInSchool = 0;
 
 	while (currentGrade <= 12) {
