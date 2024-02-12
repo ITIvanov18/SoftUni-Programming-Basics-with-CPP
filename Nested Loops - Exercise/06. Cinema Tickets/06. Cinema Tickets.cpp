@@ -13,7 +13,8 @@ int main()
 	cout.setf(ios::fixed);
 	cout.precision(2);
 
-	int totalSoldTickets = 0, studentTickets = 0, standardTickets = 0, kidTickets = 0;
+	int totalSoldTickets = 0;
+	int studentTickets = 0, standardTickets = 0, kidTickets = 0;
 
 	while (movie != "Finish")
 	{
@@ -45,16 +46,17 @@ int main()
 
 		totalSoldTickets += soldTicketsForCurrentMovie;
 
-		double usagePercentage = (double)soldTicketsForCurrentMovie / freeSeats * 100;
+		double usagePercentage = ((double)soldTicketsForCurrentMovie / freeSeats) * 100;
 		cout << movie << " - " << usagePercentage << "% full." << endl;
 
 		cin.ignore();
 		getline(cin, movie);
 	}
 
-	double studentTicketsPercentage = (double)studentTickets / totalSoldTickets * 100;
-	double standardTicketsPercentage = (double)standardTickets / totalSoldTickets * 100;
-	double kidTicketsPercentage = (double)kidTickets / totalSoldTickets * 100;
+	double studentTicketsPercentage = ((double)studentTickets / totalSoldTickets) * 100;
+	double standardTicketsPercentage = ((double)standardTickets / totalSoldTickets) * 100;
+	double kidTicketsPercentage = ((double)kidTickets / totalSoldTickets) * 100;
+
 	cout << "Total tickets: " << totalSoldTickets << endl;
 	cout << studentTicketsPercentage << "% student tickets." << endl;
 	cout << standardTicketsPercentage << "% standard tickets." << endl;
