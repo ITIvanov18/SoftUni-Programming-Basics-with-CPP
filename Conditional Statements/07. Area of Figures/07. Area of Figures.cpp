@@ -38,7 +38,6 @@ int main()
 	cout << area << endl;
 
 	return 0;
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
