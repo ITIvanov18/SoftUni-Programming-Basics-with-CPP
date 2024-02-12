@@ -10,8 +10,8 @@ int main()
 	string input;
 	cin >> input;
 
-	int primeNumbersSum = 0;
-	int nonPrimeNumbersSum = 0;
+	int primeSum = 0;
+	int nonPrimeSum = 0;
 
 	while (input != "stop") {
 
@@ -31,18 +31,18 @@ int main()
 
 			if (count == 2) {
 				//number е просто число
-				primeNumbersSum += number;
+				primeSum += number;
 			} else {
 				//number е съставно число
-				nonPrimeNumbersSum += number;
+				nonPrimeSum += number;
 			}
 		}
 
 		cin >> input;
 	}
 
-	cout << "Sum of all prime numbers is: " << primeNumbersSum << endl;
-	cout << "Sum of all non prime numbers is: " << nonPrimeNumbersSum << endl;
+	cout << "Sum of all prime numbers is: " << primeSum << endl;
+	cout << "Sum of all non prime numbers is: " << nonPrimeSum << endl;
 
 	return 0;
 }

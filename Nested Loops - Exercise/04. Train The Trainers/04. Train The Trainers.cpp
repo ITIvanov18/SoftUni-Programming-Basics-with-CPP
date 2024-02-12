@@ -27,7 +27,8 @@ int main()
 			double grade;
 			cin >> grade;
 
-			sum += grade;
+			sum += grade; //сума на оценките за текущата презентация
+
 			allGradesSum += grade;
 			totalGradesCounter++;
 		}
