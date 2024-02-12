@@ -21,12 +21,12 @@ int main()
 	if (restDuration >= necessaryTime) {
 		cout << "You have enough time to watch " << seriesName << " and left with " <<
 			ceil(restDuration - necessaryTime) << " minutes free time." << endl;
-	}
-	else {
+
+	} else {
+
 		cout << "You don't have enough time to watch " << seriesName << ", you need " <<
 			ceil(necessaryTime - restDuration) << " more minutes." << endl;
 	}
-
 
 	return 0;
 }
