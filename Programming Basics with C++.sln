@@ -203,6 +203,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Equal Sums Even Odd Pos
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Sum Prime Non Prime", "Nested Loops - Exercise\03. Sum Prime Non Prime\03. Sum Prime Non Prime.vcxproj", "{B857C260-E989-4587-9481-5E571577F7AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Train The Trainers", "Nested Loops - Exercise\04. Train The Trainers\04. Train The Trainers.vcxproj", "{932978D5-B9D9-4951-A10C-D9C80FB03E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -915,6 +917,14 @@ Global
 		{B857C260-E989-4587-9481-5E571577F7AA}.Release|x64.Build.0 = Release|x64
 		{B857C260-E989-4587-9481-5E571577F7AA}.Release|x86.ActiveCfg = Release|Win32
 		{B857C260-E989-4587-9481-5E571577F7AA}.Release|x86.Build.0 = Release|Win32
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Debug|x64.ActiveCfg = Debug|x64
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Debug|x64.Build.0 = Debug|x64
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Debug|x86.ActiveCfg = Debug|Win32
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Debug|x86.Build.0 = Debug|Win32
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Release|x64.ActiveCfg = Release|x64
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Release|x64.Build.0 = Release|x64
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Release|x86.ActiveCfg = Release|Win32
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1008,6 +1018,7 @@ Global
 		{A8009F91-83B4-414F-A9C3-596492E64C9C} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 		{BA2A40D9-4800-4373-9185-06BD8BB89023} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 		{B857C260-E989-4587-9481-5E571577F7AA} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
+		{932978D5-B9D9-4951-A10C-D9C80FB03E1F} = {0C01BE32-A2CA-4578-A0D2-CB032ABF9DBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
