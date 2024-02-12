@@ -24,6 +24,7 @@ int main() {
                 commission = 0.12 * salesVolume;
             }
         }
+
         else if (city == "Varna") {
             if (salesVolume <= 500) {
                 commission = 0.045 * salesVolume;
