@@ -3,54 +3,47 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
-int main() {
-    const int MAX_WORDS = 100;
-    string words[MAX_WORDS];
-    int wordCount = 0;
-    string currentWord = "";
-    bool found_c = false, found_o = false, found_n = false;
-    char ch;
+int main()
+{
+    string letter, complete_word, skip_letters_count, guess_word;
 
-    while (cin >> ch) {
-        if (ch == 'E') {
-            cin >> ch;
-            if (ch == 'n') {
-                cin >> ch;
-                if (ch == 'd') {
-                    break;
-                }
-            }
+    while (true)
+    {
+        getline(cin, letter);
+
+        if (letter == "End")
+        {
+            break;
         }
 
-        if (ch == 'c' && !found_c) {
-            found_c = true;
-            continue;
+        if (letter.find_first_of("con") != string::npos)
+        {
+            skip_letters_count += letter;
         }
-        if (ch == 'o' && found_c && !found_o) {
-            found_o = true;
-            continue;
+        else if (islower(letter[0]) || isupper(letter[0]))
+        {
+            guess_word += letter;
         }
-        if (ch == 'n' && found_c && found_o && !found_n) {
-            found_n = true;
-            continue;
+
+        if (skip_letters_count.find('c') != string::npos &&
+            skip_letters_count.find('o') != string::npos &&
+            skip_letters_count.find('n') != string::npos)
+        {
+            complete_word += guess_word + " ";
+            guess_word.clear();
+            skip_letters_count.clear();
         }
-        if (found_c && found_o && found_n) {
-            if (!currentWord.empty()) {
-                words[wordCount++] = currentWord;
-                currentWord = "";
-            }
-            found_c = found_o = found_n = false;
-        }
-        else if (isalpha(ch)) {
-            currentWord += ch;
+
+        if (count(skip_letters_count.begin(), skip_letters_count.end(), letter[0]) > 1)
+        {
+            guess_word += letter;
         }
     }
 
-    for (int i = 0; i < wordCount; ++i) {
-        cout << words[i] << " ";
-    }
+    cout << complete_word << endl;
 
     return 0;
 }
