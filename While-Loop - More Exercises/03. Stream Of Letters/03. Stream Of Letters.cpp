@@ -6,11 +6,24 @@
 using namespace std;
 
 int main() {
-    string word = "";
+    const int MAX_WORDS = 100;
+    string words[MAX_WORDS];
+    int wordCount = 0;
+    string currentWord = "";
     bool found_c = false, found_o = false, found_n = false;
     char ch;
 
-    while (cin >> ch && word != "End") {
+    while (cin >> ch) {
+        if (ch == 'E') {
+            cin >> ch;
+            if (ch == 'n') {
+                cin >> ch;
+                if (ch == 'd') {
+                    break;
+                }
+            }
+        }
+
         if (ch == 'c' && !found_c) {
             found_c = true;
             continue;
@@ -24,24 +37,23 @@ int main() {
             continue;
         }
         if (found_c && found_o && found_n) {
-            if (word != "") {
-                cout << word << " ";
-                word = "";
+            if (!currentWord.empty()) {
+                words[wordCount++] = currentWord;
+                currentWord = "";
             }
             found_c = found_o = found_n = false;
         }
-        if (isalpha(ch)) {
-            word += ch;
+        else if (isalpha(ch)) {
+            currentWord += ch;
         }
-        else if (!isalpha(ch) && (found_c || found_o || found_n)) {
-            found_c = found_o = found_n = false;
-        }
+    }
+
+    for (int i = 0; i < wordCount; ++i) {
+        cout << words[i] << " ";
     }
 
     return 0;
 }
-
-
 
 
 
