@@ -2,69 +2,65 @@
 //
 
 #include <iostream>
-#include <iomanip>
 #include <string>
+#include <iomanip>
 using namespace std;
 
-int main()
-{
-	int expectedSum;
-	cin >> expectedSum;
+int main() {
+    int expectedSum;
+    cin >> expectedSum;
 
-	int cashTotal = 0, cardTotal = 0;
-	int itemCount = 0;
-	bool collectedEnough = false;
+    string command;
+    int paymentType = 0;
+    int cashTotal = 0;
+    int cardTotal = 0;
+    int cashPaymentsCount = 0;
+    int cardPaymentsCount = 0;
+    int productPrice;
 
-	string input;
-	while (cin >> input && !collectedEnough) {
+    while (cin >> command && command != "End") {
+        paymentType += 1;
+        productPrice = stoi(command);
 
-		if (input == "End") {
-			break;
-		}
+        if ((productPrice > 100 && paymentType == 1) || 
+            (productPrice <= 10 && paymentType == 2)) {
+            cout << "Error in transaction!" << endl;
+        } else {
+            if (productPrice <= 100 && paymentType == 1) {
+                cashTotal += productPrice;
+                cashPaymentsCount += 1;
+                cout << "Product sold!" << endl;
+            }
+            else if (productPrice > 10 && paymentType == 2) {
+                cardTotal += productPrice;
+                cardPaymentsCount += 1;
+                cout << "Product sold!" << endl;
+            }
+        }
 
-		int productPrice = stoi(input);
+        int totalPayment = cardTotal + cashTotal;
+        if (totalPayment >= expectedSum) {
 
-		// Четен подред продукт, очаква се плащане в брой
-		if (itemCount % 2 == 0) {
-			if (productPrice <= 100) {
-				cashTotal += productPrice;
-				cout << "Product sold!" << endl;
-			}
-			else {
-				cout << "Error in transaction!" << endl;
-			}
-		} else {
-			// Нечетен подред продукт, очаква се плащане с карта
-			if (productPrice >= 10) {
-				cardTotal += productPrice;
-				cout << "Product sold!" << endl;
-			}
-			else {
-				cout << "Error in transaction!" << endl;
-			}
-		}
-		itemCount++;
+            cout.setf(ios::fixed);
+            cout.precision(2);
 
-		// Проверка за избор на метод на плащане
-		if (cashTotal + cardTotal >= expectedSum) {
-			double averageCash = cashTotal / 2.0;
-			double averageCard = cardTotal / 2.0;
+            cout << "Average CS: " << double(cashTotal) / cashPaymentsCount << endl;
+            cout << "Average CC: " << double(cardTotal) / cardPaymentsCount << endl;
+            break;
+        }
 
-			cout.setf(ios::fixed);
-			cout.precision(2);
+        if (paymentType == 2) {
+            paymentType = 0;
+        }
+    }
 
-			cout << "Average CS: " << averageCash << endl;
-			cout << "Average CC: " << averageCard << endl;
-			collectedEnough = true;
-		}
-	}
+    if (expectedSum > (cashTotal + cardTotal)) {
+        cout << "Failed to collect required money for charity." << endl;
+    }
 
-	if (!collectedEnough) {
-		cout << "Failed to collect required money for charity." << endl;
-	}
-
-	return 0;
+    return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

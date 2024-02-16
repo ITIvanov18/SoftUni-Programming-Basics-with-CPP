@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    string letter, complete_word, skip_letters_count, guess_word;
+    string letter, completeWord, skippedLettersCount, guessWord;
 
     while (true)
     {
@@ -21,29 +21,29 @@ int main()
 
         if (letter.find_first_of("con") != string::npos)
         {
-            skip_letters_count += letter;
+            skippedLettersCount += letter;
         }
         else if (islower(letter[0]) || isupper(letter[0]))
         {
-            guess_word += letter;
+            guessWord += letter;
         }
 
-        if (skip_letters_count.find('c') != string::npos &&
-            skip_letters_count.find('o') != string::npos &&
-            skip_letters_count.find('n') != string::npos)
+        if (skippedLettersCount.find('c') != string::npos &&
+            skippedLettersCount.find('o') != string::npos &&
+            skippedLettersCount.find('n') != string::npos)
         {
-            complete_word += guess_word + " ";
-            guess_word.clear();
-            skip_letters_count.clear();
+            completeWord += guessWord + " ";
+            guessWord.clear();
+            skippedLettersCount.clear();
         }
 
-        if (count(skip_letters_count.begin(), skip_letters_count.end(), letter[0]) > 1)
+        if (count(skippedLettersCount.begin(), skippedLettersCount.end(), letter[0]) > 1)
         {
-            guess_word += letter;
+            guessWord += letter;
         }
     }
 
-    cout << complete_word << endl;
+    cout << completeWord << endl;
 
     return 0;
 }
