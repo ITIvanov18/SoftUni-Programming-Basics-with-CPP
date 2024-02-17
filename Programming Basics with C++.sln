@@ -231,6 +231,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Club", "Exam preparatio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Easter Competition", "Exam preparation\06. Easter Competition\06. Easter Competition.vcxproj", "{400C0CEF-E55F-4BCD-BE1A-916678C8C24D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Name Game", "Exam preparation\07. Name Game\07. Name Game.vcxproj", "{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1047,6 +1049,14 @@ Global
 		{400C0CEF-E55F-4BCD-BE1A-916678C8C24D}.Release|x64.Build.0 = Release|x64
 		{400C0CEF-E55F-4BCD-BE1A-916678C8C24D}.Release|x86.ActiveCfg = Release|Win32
 		{400C0CEF-E55F-4BCD-BE1A-916678C8C24D}.Release|x86.Build.0 = Release|Win32
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Debug|x64.ActiveCfg = Debug|x64
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Debug|x64.Build.0 = Debug|x64
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Debug|x86.Build.0 = Debug|Win32
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Release|x64.ActiveCfg = Release|x64
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Release|x64.Build.0 = Release|x64
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Release|x86.ActiveCfg = Release|Win32
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1153,6 +1163,7 @@ Global
 		{EAF5A33C-3951-473C-9595-3CB3B37C51EA} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
 		{ABF8C787-72E9-4BFB-BA04-6E3D2C8A5B18} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
 		{400C0CEF-E55F-4BCD-BE1A-916678C8C24D} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
+		{FC7BB214-AC6C-4AB4-B7D9-37784BFD3391} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
