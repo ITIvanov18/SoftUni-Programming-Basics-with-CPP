@@ -1,0 +1,3 @@
+﻿  05. Club.cpp
+C:\Users\TsarIvan\source\repos\Programming Basics with C++\Exam preparation\05. Club\05. Club.cpp(21,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  05. Club.vcxproj -> C:\Users\TsarIvan\source\repos\Programming Basics with C++\x64\Debug\05. Club.exe
