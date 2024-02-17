@@ -223,6 +223,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Pool Day", "Exam prepar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Safari", "Exam preparation\02. Safari\02. Safari.vcxproj", "{FC452552-6FA9-476C-9DD5-AAB96D02AA9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. Travel Agency", "Exam preparation\03. Travel Agency\03. Travel Agency.vcxproj", "{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1007,6 +1009,14 @@ Global
 		{FC452552-6FA9-476C-9DD5-AAB96D02AA9A}.Release|x64.Build.0 = Release|x64
 		{FC452552-6FA9-476C-9DD5-AAB96D02AA9A}.Release|x86.ActiveCfg = Release|Win32
 		{FC452552-6FA9-476C-9DD5-AAB96D02AA9A}.Release|x86.Build.0 = Release|Win32
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Debug|x64.ActiveCfg = Debug|x64
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Debug|x64.Build.0 = Debug|x64
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Debug|x86.Build.0 = Debug|Win32
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Release|x64.ActiveCfg = Release|x64
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Release|x64.Build.0 = Release|x64
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Release|x86.ActiveCfg = Release|Win32
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1109,6 +1119,7 @@ Global
 		{68C4302C-9F18-46CD-BF16-B9E98414315E} = {C099BAD3-5B15-4779-8B35-683680FC5C87}
 		{3B3ED9EE-DE37-4FF1-8309-1041468BDC59} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
 		{FC452552-6FA9-476C-9DD5-AAB96D02AA9A} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
+		{DE21CADB-E7A7-4F3B-B5CE-A8583BD03373} = {727A9928-27E2-43F2-9265-46EF4EAA2235}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4448B9BA-320B-4FF6-853C-2F9EF655B355}
